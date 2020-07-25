@@ -1,0 +1,65 @@
+
+.Container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: blue;
+  }
+  
+  .leftContainer {
+    display: flex;
+    flex: 1;
+    background-color: white;
+  }
+
+  .rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    background-color: lightblue;
+  }
+
+  .formContainer {
+    display: flex;
+    height: 300px;
+    width: 350px;
+    border-style: dashed;
+    border-radius: 20px;
+    border-color: grey;
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:lightcyan;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2), 8px 8px 8px 8px rgba(0,0,0,0.15);
+  }
+
+  div input{
+    background-color: lightblue;
+    border-color: lightblue;
+  }
+
+  div label input{
+    background-color: white;
+    border-color: white;
+  }
+
+  .clickableLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top:  1rem;
+    width:  400px;
+  }
+
+
+  .label {
+    color: grey;
+  }
+  
+  .text{
+      color: red;
+  }
